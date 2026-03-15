@@ -10,7 +10,6 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ShiningDespair&color=58a6ff&style=flat-square&label=Profile+Views)](https://github.com/ShiningDespair)
 [![Followers](https://img.shields.io/github/followers/ShiningDespair?style=flat-square&color=58a6ff&labelColor=161b22&label=Followers)](https://github.com/ShiningDespair?tab=followers)
-[![Twitter](https://img.shields.io/badge/Twitter-%40ShinjiHappy-1DA1F2?style=flat-square&logo=twitter&logoColor=white&labelColor=161b22)](https://twitter.com/ShinjiHappy)
 [![Email](https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=161b22)](mailto:mehmet.sezen19072@gmail.com)
 
 </div>
@@ -29,7 +28,7 @@ Full-stack developer based in **Istanbul, Turkey**, pursuing a double major in *
 - 💼 **Fullstack Developer** @ Desibona — React, Next.js, ASP.NET Core, Azure
 - 🔬 **Cancer Research Intern** @ Istanbul University — 95%+ accurate CNN models
 - 🌍 **Turkish** (native) · **English** C1 · **Polish** A1
-- ⚡ Currently building: industrial waste tracking, brand monitoring SaaS & medical AI
+- ⚡ Currently building: industrial waste tracking & GHG Reporting Tools & SaaS platforms & medical AI
 - 📄 CVs available in this repo — [Standard CV](./Mehmet%20Sezen%20CV.pdf) · [Europass CV](./mehmet-sezen-europass%20(1).pdf)
 - 📧 **mehmet.sezen19072@gmail.com**
 

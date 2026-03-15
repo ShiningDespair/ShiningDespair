@@ -12,19 +12,15 @@
   <rect x=".5" y=".5" width="494" height="194" rx="4.5" fill="none" stroke="#30363D"/>
 
   <!-- Title -->
-  <text x="25" y="35" class="h">Mehmet Sezen&#8217;s GitHub Stats</text>
+  <text x="25" y="35" class="h">Mehmet Sezen&apos;s GitHub Stats</text>
   <line x1="25" y1="48" x2="360" y2="48" stroke="#30363D" stroke-width="1"/>
-
-  <!-- ── Stat rows ──────────────────────────────────────────────── -->
-  <!-- Each row: accent bar | label (x=37) | value (x=230)          -->
-  <!-- Edit the <text> content in the "vl" class to change values   -->
 
   <!-- Stars -->
   <rect x="25" y="63" width="5" height="15" rx="1" fill="#58A6FF"/>
   <text x="37" y="75" class="lb">Total Stars Earned:</text>
   <text x="230" y="75" class="vl">3</text>
 
-  <!-- Commits — update year label and count as needed -->
+  <!-- Commits -->
   <rect x="25" y="88" width="5" height="15" rx="1" fill="#58A6FF"/>
   <text x="37" y="100" class="lb">Total Commits:</text>
   <text x="230" y="100" class="vl">2000+</text>
@@ -44,12 +40,12 @@
   <text x="37" y="175" class="lb">Contributed to:</text>
   <text x="230" y="175" class="vl">50+ repos</text>
 
-  <!-- ── Rank circle (center: 415, 97) ────────────────────────── -->
-  <!-- Circumference = 2π × 38 ≈ 238.76                           -->
-  <!-- B+ ≈ 75 %  →  dasharray = "179 60"                         -->
-  <!-- To change rank: adjust dasharray first value (filled arc)   -->
-  <!--   A++: 239 0 | A+: 224 15 | A: 196 43 | B+: 179 60         -->
-  <!--   B:   155 84 | C: 120 119 | D: 72 167                      -->
+  <!-- Rank circle (center: 415, 97) -->
+  <!-- Circumference = 2*pi*38 = 238.76                     -->
+  <!-- SSS = full circle: dasharray="239 0"                 -->
+  <!-- To change rank adjust first value:                   -->
+  <!--   A++: 239 0 | A+: 224 15 | A: 196 43 | B+: 179 60  -->
+  <!--   B:   155 84 | C: 120 119 | D: 72 167               -->
   <g transform="translate(415,97)">
     <circle r="38" fill="none" stroke="#21262D" stroke-width="6"/>
     <circle r="38" fill="none" stroke="#FFD700" stroke-width="6"
