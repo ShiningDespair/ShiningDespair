@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="205" viewBox="0 0 300 205">
+  <style>
+    .h  { font: 600 17px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #58A6FF }
+    .ln { font: 400 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #C9D1D9 }
+    .lp { font: 600 11px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #8B949E }
+  </style>
+
+  <!-- Card background + border -->
+  <rect width="300" height="205" rx="4.5" fill="#0D1117"/>
+  <rect x=".5" y=".5" width="299" height="204" rx="4.5" fill="none" stroke="#30363D"/>
+
+  <!-- Title -->
+  <text x="25" y="35" class="h">Most Used Languages</text>
+
+  <!-- ── Stacked progress bar ──────────────────────────────────── -->
+  <!-- Total bar: x=25, width=250 (x ends at 275), height=8, y=50  -->
+  <!-- Each segment width = 250 × (percentage / 100)               -->
+  <!-- Adjust widths to change proportions; they must sum to 250    -->
+  <!--                                                              -->
+  <!-- Current: TS 37% | C# 32% | Java 8% | PHP 8%                 -->
+  <!--          JS 7% | Python 6% | R 2%       Total = 100%         -->
+  <defs>
+    <clipPath id="bc">
+      <rect x="25" y="50" width="250" height="8" rx="4"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#bc)">
+    <rect x="25"  y="50" width="93" height="8" fill="#3178C6"/><!-- TypeScript  37% →  93px -->
+    <rect x="118" y="50" width="80" height="8" fill="#239120"/><!-- C#          32% →  80px -->
+    <rect x="198" y="50" width="20" height="8" fill="#ED8B00"/><!-- Java         8% →  20px -->
+    <rect x="218" y="50" width="20" height="8" fill="#777BB4"/><!-- PHP          8% →  20px -->
+    <rect x="238" y="50" width="17" height="8" fill="#F7DF1E"/><!-- JavaScript   7% →  17px -->
+    <rect x="255" y="50" width="15" height="8" fill="#3776AB"/><!-- Python       6% →  15px -->
+    <rect x="270" y="50" width="5"  height="8" fill="#276DC3"/><!-- R            2% →   5px -->
+  </g>
+
+  <!-- ── Language list (2-column grid, sorted by % descending) ── -->
+  <!-- Column 1: dot cx=35 | name x=45 | pct x=110               -->
+  <!-- Column 2: dot cx=170 | name x=180 | pct x=215              -->
+  <!-- Row spacing: 27px                                           -->
+
+  <!-- Row 1 -->
+  <circle cx="35"  cy="83"  r="5" fill="#3178C6"/>
+  <text   x="45"  y="88"  class="ln">TypeScript</text>
+  <text   x="110" y="88"  class="lp">37.0%</text>
+
+  <circle cx="170" cy="83"  r="5" fill="#239120"/>
+  <text   x="180" y="88"  class="ln">C#</text>
+  <text   x="230" y="88"  class="lp">32.0%</text>
+
+  <!-- Row 2 -->
+  <circle cx="35"  cy="110" r="5" fill="#ED8B00"/>
+  <text   x="45"  y="115" class="ln">Java</text>
+  <text   x="110" y="115" class="lp">8.0%</text>
+
+  <circle cx="170" cy="110" r="5" fill="#777BB4"/>
+  <text   x="180" y="115" class="ln">PHP</text>
+  <text   x="230" y="115" class="lp">8.0%</text>
+
+  <!-- Row 3 -->
+  <circle cx="35"  cy="137" r="5" fill="#F7DF1E"/>
+  <text   x="45"  y="142" class="ln">JavaScript</text>
+  <text   x="110" y="142" class="lp">7.0%</text>
+
+  <circle cx="170" cy="137" r="5" fill="#3776AB"/>
+  <text   x="180" y="142" class="ln">Python</text>
+  <text   x="230" y="142" class="lp">6.0%</text>
+
+  <!-- Row 4 -->
+  <circle cx="35"  cy="164" r="5" fill="#276DC3"/>
+  <text   x="45"  y="169" class="ln">R</text>
+  <text   x="110" y="169" class="lp">2.0%</text>
+</svg>
